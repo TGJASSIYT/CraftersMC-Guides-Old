@@ -43,7 +43,7 @@ This static web package is powered by:
 
 ## **Preview**
 
-https://tgjassiyt.github.io/cmc-guides-output/
+[CraftersMC Guides Output](https://tgjassiyt.github.io/CraftersMC-Guides-Output/)
 
 ---
 
