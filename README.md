@@ -43,7 +43,7 @@ This static web package is powered by:
 
 ## **Preview**
 
-![CraftersMC Guides Preview](https://via.placeholder.com/800x400?text=Insert+Preview+Screenshot)
+https://tgjassiyt.github.io/cmc-guides-output/
 
 ---
 
