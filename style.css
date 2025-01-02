@@ -19,7 +19,7 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: auto; /* Enable scrolling */
-  max-height: 50px; /* Set a max height */
+  max-height: 400px; /* Set a max height */
 }
 
 /* Custom scrollbar styles */
