@@ -62,11 +62,6 @@ body {
   background: #f9fafb;
 }
 
-.content {
-    max-height: 50px; /* Example height */
-    overflow-y: scroll;
-}
-
 .content ul {
   margin: 0;
   padding-left: 20px;
@@ -107,8 +102,8 @@ a.button{
 
 /* Scrollable long text */
 .collapsible-content {
-  max-height: 0;
-  overflow: hidden;
+  max-height: 50px;
+  overflow: scroll;
   transition: max-height 0.4s ease-out;
 }
 
