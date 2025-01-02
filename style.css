@@ -18,26 +18,7 @@ body {
   background: #ffffff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  overflow: auto; /* Enable scrolling */
-  max-height: 400px; /* Set a max height */
-}
-
-/* Custom scrollbar styles */
-.doc-container::-webkit-scrollbar {
-  width: 12px; /* Width of the scrollbar */
-}
-
-.doc-container::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Background of the scrollbar track */
-}
-
-.doc-container::-webkit-scrollbar-thumb {
-  background: #888; /* Color of the scrollbar thumb */
-  border-radius: 10px; /* Rounded corners for the thumb */
-}
-
-.doc-container::-webkit-scrollbar-thumb:hover {
-  background: #555; /* Color of the thumb on hover */
+  overflow: hidden; /* Keep this hidden to prevent outer scrolling */
 }
 
 .section-separator {
@@ -75,10 +56,30 @@ body {
 }
 
 .content {
-  display: none;
+  display: none; /* Initially hidden */
   padding: 20px;
   border-top: 1px solid #e2e8f0;
   background: #f9fafb;
+  max-height: 200px; /* Set a max height for scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Custom scrollbar styles for the content */
+.content::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+.content::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+}
+
+.content::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+}
+
+.content::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the thumb on hover */
 }
 
 .content ul {
@@ -116,5 +117,5 @@ a.button {
   color: white;
   text-decoration: none;
   border-radius: 5px;
- font-family: 'Cabin', sans-serif;
+  font-family: 'Cabin', sans-serif;
 }
