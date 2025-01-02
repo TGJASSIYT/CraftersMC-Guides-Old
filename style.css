@@ -109,7 +109,7 @@ a.button{
 
 /* Expanded content */
 .collapsible-content.expanded {
-  max-height: 300px; /* Adjust based on your preference */
+  max-height: 50px; /* Adjust based on your preference */
 }
 
 /* Smooth scrolling inside collapsible content */
