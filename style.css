@@ -18,7 +18,26 @@ body {
   background: #ffffff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  overflow: hidden;
+  overflow: auto; /* Enable scrolling */
+  max-height: 400px; /* Set a max height */
+}
+
+/* Custom scrollbar styles */
+.doc-container::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+.doc-container::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+}
+
+.doc-container::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+}
+
+.doc-container::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the thumb on hover */
 }
 
 .section-separator {
@@ -89,7 +108,7 @@ footer {
   margin: 5px 0;
 }
 
-a.button{
+a.button {
   display: inline-block;
   padding: 10px;
   margin: 5px;
@@ -97,31 +116,5 @@ a.button{
   color: white;
   text-decoration: none;
   border-radius: 5px;
-  font-family: 'Cabin', sans-serif;
-}
-
-/* Scrollable long text */
-.collapsible-content {
-  max-height: 50px;
-  overflow: scroll;
-  transition: max-height 0.4s ease-out;
-}
-
-/* Expanded content */
-.collapsible-content.expanded {
-  max-height: 50px; /* Adjust based on your preference */
-}
-
-/* Smooth scrolling inside collapsible content */
-.collapsible-content::-webkit-scrollbar {
-  width: 8px;
-}
-
-.collapsible-content::-webkit-scrollbar-thumb {
-  background-color: #888;
-  border-radius: 4px;
-}
-
-.collapsible-content::-webkit-scrollbar-thumb:hover {
-  background: #555;
+ font-family: 'Cabin', sans-serif;
 }
