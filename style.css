@@ -113,13 +113,20 @@ footer {
   margin: 5px 0;
 }
 
-a.button {
+/* Styles for the Scroll to Section Start button */
+.scroll-to-top {
   display: inline-block;
-  padding: 10px;
-  margin: 5px;
-  background-color: #1e90ff;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-family: 'Cabin', sans-serif;
+  padding: 10px 15px;
+  margin-top: 10px;
+  background-color: #1e90ff; /* Button color */
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  font-family: 'Cabin', sans-serif; /* Font family */
+  cursor: pointer; /* Pointer cursor on hover */
+  border: none; /* Remove border */
+}
+
+.scroll-to-top:hover {
+  background-color: #334155; /* Darker background on hover */
 }
