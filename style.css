@@ -5,6 +5,10 @@ body {
   margin: 20px;
 }
 
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
 .title {
   text-align: center;
   font-weight: 950;
