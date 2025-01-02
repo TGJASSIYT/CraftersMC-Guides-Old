@@ -63,8 +63,8 @@ body {
 }
 
 .content {
-    max-height: 400px; /* Example height */
-    overflow-y: auto;
+    max-height: 50px; /* Example height */
+    overflow-y: scroll;
 }
 
 .content ul {
