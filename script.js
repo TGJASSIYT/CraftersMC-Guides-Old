@@ -3,9 +3,6 @@
 
   collapsibles.forEach((collapsible) => {
     collapsible.addEventListener('click', () => {
-      // Check if the clicked collapsible is already active
-      const isActive = collapsible.classList.contains('active');
-
       // Close all other collapsibles
       collapsibles.forEach((other) => {
         if (other !== collapsible) {
@@ -18,20 +15,10 @@
       });
 
       // Toggle the clicked collapsible
-      if (!isActive) {
-        collapsible.classList.add('active');
-        const content = collapsible.nextElementSibling;
-        if (content) {
-          content.style.display = 'block';
-        }
-      } else {
-        // If it was already active, just toggle it closed
-        collapsible.classList.remove('active');
-        const content = collapsible.nextElementSibling;
-        if (content) {
-          content.style.display = 'none';
-        }
-      }
+      const content = collapsible.nextElementSibling;
+      const isActive = collapsible.classList.contains('active');
+      collapsible.classList.toggle('active', !isActive);
+      content.style.display = isActive ? 'none' : 'block';
     });
   });
 </script>
