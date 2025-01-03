@@ -68,10 +68,10 @@ body {
 }
 
 .content.expanded {
-  max-height: 300px; /* Adjust the height based on your content */
+  max-height: 500px; /* Adjust to fit the content */
   padding: 20px;
-  overflow-y: auto;
   opacity: 1;
+  overflow-y: auto;
 }
 
 footer {
