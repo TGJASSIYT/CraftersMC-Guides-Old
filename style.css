@@ -62,16 +62,24 @@ body {
   max-height: 0;
   overflow: hidden;
   background: #f9fafb;
-  padding: 0 20px;
   transition: max-height 0.5s ease, padding 0.3s ease, opacity 0.3s ease;
   opacity: 0;
+  padding: 0 20px;
 }
 
 .content.expanded {
-  max-height: 500px; /* Adjust to fit the content */
-  padding: 20px;
+  max-height: 500px; /* Adjust to the max-height for expanded content */
   opacity: 1;
-  overflow-y: auto;
+  overflow-y: auto; /* Allows scrolling for long text */
+}
+
+.content.expanded::-webkit-scrollbar {
+  width: 8px;
+}
+
+.content.expanded::-webkit-scrollbar-thumb {
+  background: #1E90FF;
+  border-radius: 4px;
 }
 
 footer {
