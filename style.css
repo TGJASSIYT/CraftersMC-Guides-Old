@@ -68,7 +68,7 @@ body {
 }
 
 .content.expanded {
-  max-height: 500px; /* Adjust to the max-height for expanded content */
+  max-height: 50px; /* Adjust to the max-height for expanded content */
   opacity: 1;
   overflow-y: auto; /* Allows scrolling for long text */
 }
