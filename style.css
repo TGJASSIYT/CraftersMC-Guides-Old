@@ -7,8 +7,9 @@ body {
 
 .title {
   text-align: center;
-  font-weight: 950;
-  color: #212121;
+  font-size: 28px;
+  font-weight: bold;
+  color: #1E90FF;
   margin-bottom: 20px;
 }
 
@@ -38,6 +39,7 @@ body {
   outline: none;
   display: flex;
   align-items: center;
+  transition: background-color 0.3s;
 }
 
 .collapsible:hover {
@@ -48,7 +50,7 @@ body {
   content: '\25B6';
   font-size: 16px;
   margin-left: auto;
-  transition: transform 0.2s;
+  transition: transform 0.3s;
 }
 
 .collapsible.active::after {
@@ -56,39 +58,20 @@ body {
 }
 
 .content {
-  display: none; /* Initially hidden */
-  padding: 20px;
-  border-top: 1px solid #e2e8f0;
+  display: block;
+  max-height: 0;
+  overflow: hidden;
   background: #f9fafb;
-  max-height: 200px; /* Set a max height for scrolling */
-  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 0 20px;
+  transition: max-height 0.5s ease, padding 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
 }
 
-/* Custom scrollbar styles for the content */
-.content::-webkit-scrollbar {
-  width: 12px; /* Width of the scrollbar */
-}
-
-.content::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Background of the scrollbar track */
-}
-
-.content::-webkit-scrollbar-thumb {
-  background: #888; /* Color of the scrollbar thumb */
-  border-radius: 10px; /* Rounded corners for the thumb */
-}
-
-.content::-webkit-scrollbar-thumb:hover {
-  background: #555; /* Color of the thumb on hover */
-}
-
-.content ul {
-  margin: 0;
-  padding-left: 20px;
-}
-
-.content ul li {
-  margin-bottom: 5px;
+.content.expanded {
+  max-height: 300px; /* Adjust the height based on your content */
+  padding: 20px;
+  overflow-y: auto;
+  opacity: 1;
 }
 
 footer {
@@ -107,15 +90,4 @@ footer {
 
 .credits p {
   margin: 5px 0;
-}
-
-a.button {
-  display: inline-block;
-  padding: 10px;
-  margin: 5px;
-  background-color: #1e90ff;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-family: 'Cabin', sans-serif;
 }
