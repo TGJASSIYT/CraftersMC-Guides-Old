@@ -68,7 +68,7 @@ body {
 }
 
 .content.expanded {
-  max-height: 500px; /* Set a high enough value to accommodate most content */
+  max-height: 100px; /* Set a high enough value to accommodate most content */
   opacity: 1; /* Make visible */
   overflow-y: auto; /* Allows scrolling for long text */
   padding: 10px 20px; /* Add some padding when expanded */
