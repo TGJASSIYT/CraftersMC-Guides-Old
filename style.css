@@ -59,17 +59,17 @@ body {
 
 .content {
   display: block;
-  max-height: 0;
-  overflow: hidden;
+  max-height: 0; /* Initially collapsed */
+  overflow: hidden; /* Hide overflow */
   background: #f9fafb;
-  transition: max-height 0.5s ease, padding 0.3s ease, opacity 0.3s ease;
-  opacity: 0;
-  padding: 0 20px;
+  transition: max-height 0.5s ease, padding 0.3s ease, opacity 0.3s ease; /* Transition for smooth opening/closing */
+  opacity: 0; /* Initially hidden */
+  padding: 0 20px; /* Padding when collapsed */
 }
 
 .content.expanded {
   max-height: 500px; /* Set a high enough value to accommodate most content */
-  opacity: 1;
+  opacity: 1; /* Make visible */
   overflow-y: auto; /* Allows scrolling for long text */
   padding: 10px 20px; /* Add some padding when expanded */
 }
