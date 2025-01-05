@@ -100,3 +100,13 @@ footer {
 .credits p {
   margin: 5px 0;
 }
+
+/* rank iconsssss*/
+
+.emerald {
+    background: url('emerald.jpg');
+    height: auto;
+    width: 20px;
+    display: block;
+    
+}
