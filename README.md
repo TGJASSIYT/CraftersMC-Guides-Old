@@ -1,67 +1,38 @@
-# **CraftersMC Guides**
+# 🌟 Welcome to CraftersMC Guides  
+Your ultimate companion to mastering CraftersMC SkyBlock!
 
-Welcome to **CraftersMC Guides**, your ultimate companion to navigate the complex systems of **CraftersMC SkyBlock**. Whether you're a beginner or a seasoned mid-game player, these guides provide you with all the answers and strategies you need to succeed.  
-
-Feeling lost? Let this documentation be your go-to resource for understanding what to do next.
-
----
-
-## **What is CraftersMC?**
-
-**CraftersMC** is a **Minecraft: Bedrock Edition** server that offers an immersive **SkyBlock game mode**. Players begin on their unique islands and can explore various dimensions, level up skills, and unlock collections. The server delivers a dynamic and personalized experience through:
-
-- **Custom mobs** and battles.  
-- **Specialized weapons** and tools.  
-- **Island building** and crafting.  
-- Regular updates featuring **new achievements**, **QoL improvements**, and **bug fixes**.  
-- **Multilingual support**, including languages like German and French.  
-
-Join an active and diverse community of players as you explore everything **CraftersMC SkyBlock** has to offer!
+## 🏝️ What is CraftersMC?  
+CraftersMC is a **Minecraft: Bedrock Edition** server offering an immersive SkyBlock experience.  
+Players start on their unique islands and explore different dimensions while leveling up skills and unlocking collections.
 
 ---
 
-## **Features of This Guide**
-
-The **CraftersMC Guides** almost covers every aspect of progression in SkyBlock, including:  
-
-1. **Beginner Guide**
-2. **Mid Game Guide (2 Parts)**
-3. **Bazaar Guide**
-4. **Accessories Guide**
-5. **Queries related to Guides**
+## 📖 Features  
+- Starter Guide  
+- Intermediate Guide (2 Parts)  
+- Advanced Guide  
+- Bazaar Guide  
+- Accessories Guide  
+- Rank Sellers Lists  
 
 ---
 
-## **Technologies Used**
-
-This static web package is powered by:  
-- **HTML:** Structure and content layout.  
-- **CSS:** Stylish, responsive designs using scalable `em` units.  
-- **JavaScript:** Interactive collapsible sections for a clean, user-friendly experience.  
+## 🚀 Contribute  
+We welcome contributions! If you notice any errors or have suggestions, feel free to submit a pull request.
 
 ---
 
-## **Preview**
+## 👨‍💻 Meet the Team  
 
-[CraftersMC Guides Output](https://tgjassiyt.github.io/CraftersMC-Guides-Output/)
-
----
-
-## **Credits**
-
-This project is brought to you by:  
-- **Coder:** TGJASSIYT (Discord: jassi_xc)
-- **Coder:** TechonTheDev (Discord: techonthedev)
-- **Writer:** ieduoo (Discord: ieduoo)  
+| Name | Role | Discord |
+|------|------|---------|
+| **Aakash Gupta** | Advisor | `aakashgupta12` |
+| **ieduoo** | Writer | `ieduoo` |
+| [**TGJASSIYT**](https://github.com/TGJASSIYT) | Coder | `jassi_xc` |
+| [**TechonTheDev**](https://github.com/TechonVS) | Coder | `techonthedev` |
+| [**Pg Network**](https://github.com/PgNetwork01) | Coder | `pgnetwork01` |
 
 ---
 
-## **Contribute**
-
-We welcome contributions to improve the guide! If you notice any errors or have suggestions, feel free to open an issue or submit a pull request.  
-
----
-
-## **License**
-
-This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for details.
+## 📢 Join Our Community  
+Connect with other players on our **[Discord Server](https://discord.gg/tbHbnvdXKR)**
